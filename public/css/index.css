@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+
+
+/* body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+} */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* list-of-house */
+.body {
+    width: 100%;
+}
+
+.list-of-house {
+    width: 1000px;
+    margin: 0 auto;
+}
+.list-of-house p {
+    font-size: 15px;
+}
+
+.top-house {
+    width: 100%;
+    object-fit:cover;
+}
+
+.table-text1 {
+    width: 400px;
+    height: auto;
+    
+}
+
+.house-list {
+    display: flex;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
+}
+
+.top-img {
+    margin-right: 20px;
+}
+.list-title {
+    font-weight: 600;
+}
+table {
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border: 1px solid rgb(204, 204, 204);
+    border-radius: 30px; */
+}
+
+table td {
+    padding:10px;
+}
+
+.detail-button {
+    display: block;
+    height: 20px;
+    width: 80px;
+    z-index: 10;
+    margin-left: 30px;
+}
+.delete-button {
+    margin-left: 20px;
+}
+
+.good-button {
+    padding: 5px 20px;
+    height: 30px;
+    border-radius:20px;
+    color: #fff;
+    background-color: #eb6100;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    margin-right: 5px;
+}
+.list-button {
+    display: flex;
+    position: relative;
+    left: 600px;
+    top: -70px;
+}
+.like-content {
+    display: flex;
+    color:rgb(109, 125, 130)
+}
+.like-container {
+    height: 0;
+    display: flex;
+}
+.my-page {
+    text-align: right;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+/* house-detail */
+.house-detail {
+    width: 100%;
+}
+.detail-img {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+.detail-p {
+    width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.top-img {
+    
+    
+}
+.top-img img {
+    height: 300px;
+    width: 350px;
+    object-fit:cover;
+}
+.sub-img {
+    width: 100%;
+    margin: 0 auto;
+}
+.sub-img1 {
+    display: flex;
+    padding-bottom: 15px;
+}
+.sub-img2 {
+    display: flex;
+    
+}
+.sub-img1 img {
+    width: 180px;
+    height: 142px;
+    object-fit:cover;
+    margin-right: 15px;
+}
+.sub-img2 img {
+    width: 180px;
+    height: 142px;
+    object-fit:cover;
+    margin-right: 15px;
+}
+
+.detail-text {
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.detail-table {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.to-cost-button {
+    text-align: center;
+}
+.home-button {
+    width: 1000px;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.home-button2 {
+    margin-left: 50px;
+}
+.normal-button {
+    background-color: rgb(233, 237, 239);
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+    color: #454545;
+    padding: 5px 20px;
+    appearance: none;
+    outline: none;
+}
+.button-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.register-button {
+    background-color: rgb(149, 220, 161);
+    border: 1px solid rgb(109, 125, 130);
+    color: rgb(40, 49, 42);
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.page-register {
+    width: 1050px;
+    margin: 0 auto;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.detail-title {
+    width: 100px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/* cost */
+.cost {
+    width: 1000px;
+    margin: 0 auto;
+}
+.cost-p {
+    font-size: 15px;
+}
+.cost-select {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.cost-select img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.img-select {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.cost-content {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+.cost-content p {
+    margin-bottom: 0;
+}
+.cost-form {
+    width: 100%;
+    margin: 0 auto;
+}
+.to-cost-button {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+/* register-house */
+.error-msg {
+    color: red;
+}
+.register-house-form {
+    width: 1000px;
+    margin: 0 auto;
+}
+.register-content {
+    display: flex;
+}
+.red-point {
+    color: red;
+}
+.form-item {
+    width: 200px;
+}
+.register-item {
+    margin-bottom: 20px;
+}
+.img-item5 {
+    margin-bottom: 30px;
+}
+.long-input {
+    width: 400px;
+}
+.register-radio {
+    display: flex;
+    margin-right: 30px;
+}
+.register-radio p {
+    margin-left: 10px;
+    padding-top: 15px
+}
+.form-content {
+    height: 20px;
+}
+.regi-button {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+
+/* house-check */
+.check-button {
+    width: 1000px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.check2 {
+    margin-left: 50px;
+    width: 200px;
+}
+.check1 {
+    width: 200px;
+    background-color: rgb(149, 220, 161);
+}
+.form-content {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+
+
+/* top */
+.home-top-img img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+    top: 60px;
+}
+.top-text {
+    margin-top: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.top-text p {
+    text-align: center;
+}
+.top-text1 {
+    color: #279647;
+    font-size: 40px;
+    font-weight: 600;
+}
+.top-text2 {
+    color: #6c6c6c;
+    
+}
+
+
+
+/* my-page- */
+.home-top {
+    width: 1000px;
+    margin: 0 auto;
+}
+.home-a {
+    margin-left: 80%;
+    margin-right: 5%;
+}
+.home-content {
+    margin-top: 40px;
+}
+.home-content p {
+    margin-left: 2.5%;
+}
+.page-register {
+    margin-top: 30px;
+}
+.buy-table {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgb(155, 155, 155);
+}
+.table-title {
+    border: 1px solid rgb(155, 155, 155);
+}
+.table-title th {
+    font-weight: 600;
+}
+.buy-table th {
+    border: 1px solid rgb(155, 155, 155);
+    padding: 5px 10px;
+}
+.buy-content p {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* update- */
+.back-a {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
